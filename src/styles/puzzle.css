@@ -1,0 +1,45 @@
+/* ...existing code... */
+
+.puzzle-container {
+  /* Add your styles here */
+}
+
+/* Add styles for subreddit image */
+.subreddit-image {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.subreddit-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.subreddit-image p {
+  margin-top: 0.5rem;
+  font-weight: bold;
+}
+
+/* Add styles for feedback messages */
+.feedback {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.feedback.correct {
+  background-color: #d4edda;
+  color: #155724;
+  border: 1px solid #c3e6cb;
+}
+
+.feedback.incorrect {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+}
+
+/* ...existing code... */
